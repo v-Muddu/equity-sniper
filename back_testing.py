@@ -358,7 +358,7 @@ def get_second_df(c, d, df):
     return df2
     
 def get_first_df():
-        df = pd.read_csv("nfmarch1915min.csv")
+        df = pd.read_csv("resources/nfmarch1915min.csv")
         df.dropna(inplace=True)
         df.reset_index(inplace=True)
         return df
